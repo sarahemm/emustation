@@ -611,7 +611,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x10"
+		(symbol "Connector_Generic_MountingPin:Conn_01x10_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -631,14 +631,15 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x10_MountingPin"
+				(at 1.27 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -663,7 +664,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -685,7 +686,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -696,7 +697,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x10_1_1"
+			(symbol "Conn_01x10_MountingPin_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 1.27 -13.97)
@@ -816,6 +817,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -14.732) (xy 1.016 -14.732)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -14.351 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -991,6 +1012,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3053,6 +3092,12 @@
 		(uuid "c8d87d88-e2a5-42e9-a02c-1945295c1bda")
 	)
 	(junction
+		(at 57.15 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d93b63be-2050-4626-94a5-abda6a4618e4")
+	)
+	(junction
 		(at 236.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3900,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 46.99) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d2a650-f4c7-42b6-bcf9-fd35adca5183")
+	)
+	(wire
+		(pts
 			(xy 62.23 76.2) (xy 64.77 76.2)
 		)
 		(stroke
@@ -3907,6 +3962,16 @@
 			(type default)
 		)
 		(uuid "6b132d19-7afd-4516-be19-2373bc47b022")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 57.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c08540c-5793-4f05-9166-c73c5fcac578")
 	)
 	(wire
 		(pts
@@ -4280,6 +4345,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 46.99) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a660fa-b0bf-4f2c-8c2d-69dc045201a9")
+	)
+	(wire
+		(pts
 			(xy 273.05 41.91) (xy 273.05 45.72)
 		)
 		(stroke
@@ -4457,6 +4532,16 @@
 			(type default)
 		)
 		(uuid "da84ddae-eff3-41ad-a624-6a2da13a20fc")
+	)
+	(wire
+		(pts
+			(xy 82.55 46.99) (xy 82.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db706340-9ece-4b3e-b370-9dc6ef5da8d7")
 	)
 	(wire
 		(pts
@@ -4657,6 +4742,16 @@
 			(type default)
 		)
 		(uuid "fbfa0110-673d-4274-8cf9-b2aa82c69495")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd403850-f6c6-405f-9596-15c3e480f18c")
 	)
 	(bus
 		(pts
@@ -5279,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 223.52 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5355,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 248.92 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 243.84 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5818,7 +5913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 259.08 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5858,6 +5953,84 @@
 			(project "emustation-alpha-display"
 				(path "/a740a1c9-1554-4b3f-9451-fff74a9eb912"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ba755f4-02ee-4f65-b30a-9380f42b44cc")
+		(property "Reference" "#PWR039"
+			(at 52.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec2af4c-94dd-4566-9eca-4eb9658efd6f")
+		)
+		(instances
+			(project "emustation-alpha-display"
+				(path "/a740a1c9-1554-4b3f-9451-fff74a9eb912"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6282,7 +6455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 233.68 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6360,7 +6533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6409,7 +6582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
 		(at 57.15 66.04 180)
 		(unit 1)
 		(body_style 1)
@@ -6419,28 +6592,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4224e085-712c-48ae-9735-0d14bc2d3acf")
+		(uuid "3db5098e-fd67-4ff7-95f2-7fd71c503849")
 		(property "Reference" "CN1"
-			(at 57.15 46.99 0)
+			(at 54.61 63.1443 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "I/O"
-			(at 57.15 49.53 0)
+			(at 54.61 65.6843 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sen_Connector_FPC:CF4210FH0R0-05-NH_1x10-1MP_P0.50mm_Horizontal"
 			(at 57.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6462,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 57.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6473,35 +6648,38 @@
 				)
 			)
 		)
-		(pin "9"
-			(uuid "a1ae1170-ee7b-41ef-b62b-f742cafed04a")
-		)
 		(pin "7"
-			(uuid "dcd233d6-44fb-4a80-8076-7aaa72559415")
-		)
-		(pin "3"
-			(uuid "8fd8226d-57ec-4ea4-82f1-29824a9c1cca")
-		)
-		(pin "1"
-			(uuid "303aecec-33d0-4bd4-bcb0-5a621a36d04e")
-		)
-		(pin "10"
-			(uuid "b00896b2-f569-4931-92b6-8054136296b9")
-		)
-		(pin "4"
-			(uuid "c9aaaefe-e393-43de-ab3b-33b0c639e7e2")
-		)
-		(pin "8"
-			(uuid "e934755f-57e1-4b47-8445-ca1adec6fac2")
-		)
-		(pin "5"
-			(uuid "16d47c47-dd90-4062-8297-11a81529792a")
-		)
-		(pin "2"
-			(uuid "9deae018-c9c0-455a-b36c-2f2cfca49135")
+			(uuid "df088e6d-6d84-4c02-9426-ea398c671fd1")
 		)
 		(pin "6"
-			(uuid "68656219-11c4-4c88-bf13-f372304f9e4d")
+			(uuid "5f5bc420-d12f-4f2c-a8bc-08dfa667e776")
+		)
+		(pin "10"
+			(uuid "494372d3-2643-4db1-85b9-1331d49cfab3")
+		)
+		(pin "1"
+			(uuid "43a3e0ca-4a09-4f14-bb51-0b17fce65b95")
+		)
+		(pin "3"
+			(uuid "7509c630-dd89-4e3a-bb0d-59aab146e74d")
+		)
+		(pin "4"
+			(uuid "dfa7259b-aa82-4f64-ac31-00ecf1360964")
+		)
+		(pin "8"
+			(uuid "6496afeb-0b3a-47c9-a777-12920012bbb5")
+		)
+		(pin "9"
+			(uuid "59f2d899-413d-49f9-a76e-075bf5fd2dd1")
+		)
+		(pin "MP"
+			(uuid "bb2e429b-416e-49c4-a236-d05fd86a4bf2")
+		)
+		(pin "2"
+			(uuid "bd85816d-6420-482e-a2af-7835fac3e856")
+		)
+		(pin "5"
+			(uuid "57ecc07a-05af-4ed2-ab3b-ffbfb5b68fc5")
 		)
 		(instances
 			(project "emustation-alpha-display"
@@ -6621,7 +6799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 228.6 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6700,7 +6878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 41.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6790,7 +6968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6868,7 +7046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6949,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 265.43 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7105,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 273.05 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 42.926 100.584 90)
 			(hide yes)
 			(show_name no)
@@ -7814,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7893,7 +8071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 213.36 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8047,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 254 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8293,7 +8471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 218.44 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8523,7 +8701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 205.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +9030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 269.24 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8931,7 +9109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
 			(at 275.59 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9174,6 +9352,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
+		(at 82.55 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa459fd9-0d5f-40e6-86ba-7499a939c329")
+		(property "Reference" "CN2"
+			(at 80.01 63.1443 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I/O"
+			(at 80.01 65.6843 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sen_Connector_FPC:CF4210FH0R0-05-NH_1x10-1MP_P0.50mm_Horizontal"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "ab7db798-438e-4ed2-8fd1-b52ae203f6be")
+		)
+		(pin "6"
+			(uuid "51f37429-a5ad-437e-b113-300bd3fb425a")
+		)
+		(pin "10"
+			(uuid "df9bada8-23cb-429b-8799-f99e673e382e")
+		)
+		(pin "1"
+			(uuid "54dfb370-0c30-4e95-a367-4235acbe845a")
+		)
+		(pin "3"
+			(uuid "84e17895-1662-42d5-b307-33ea79d1d146")
+		)
+		(pin "4"
+			(uuid "bed28472-6451-4d9b-9b22-2274e4679e58")
+		)
+		(pin "8"
+			(uuid "10a425f0-2fa2-475d-a25f-19f024543a35")
+		)
+		(pin "9"
+			(uuid "193ac4d2-4fcb-464e-a53a-cb5d1f13f0be")
+		)
+		(pin "MP"
+			(uuid "fa6d95de-e2aa-4b6d-a427-70c2e90256ca")
+		)
+		(pin "2"
+			(uuid "2e45ad6e-1587-4068-903e-6fbccd9d46e4")
+		)
+		(pin "5"
+			(uuid "bb7b5717-c97b-4d3e-aae5-97b76fb7ef88")
+		)
+		(instances
+			(project "emustation-alpha-display"
+				(path "/a740a1c9-1554-4b3f-9451-fff74a9eb912"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 198.12 148.59 0)
 		(unit 1)
@@ -9204,7 +9491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 203.2 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9244,110 +9531,6 @@
 			(project "emustation-alpha-display"
 				(path "/a740a1c9-1554-4b3f-9451-fff74a9eb912"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 82.55 66.04 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadd3e10-0da7-439d-8416-de8430903b9d")
-		(property "Reference" "CN2"
-			(at 82.55 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I/O"
-			(at 82.55 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "a093650b-7208-4aa5-b14c-16752fb17050")
-		)
-		(pin "7"
-			(uuid "eb12257c-b5d0-4d39-bf8d-38fe10cb1d8e")
-		)
-		(pin "3"
-			(uuid "af58311d-28a9-47a0-b531-23fbe4030a6a")
-		)
-		(pin "1"
-			(uuid "009252ce-a858-4257-95d0-ea303570e917")
-		)
-		(pin "10"
-			(uuid "2fafedab-0c3a-425e-b717-672d5358460b")
-		)
-		(pin "4"
-			(uuid "4e5075f4-789a-44a9-9819-8cd37d8986f7")
-		)
-		(pin "8"
-			(uuid "fbf375d7-2b27-4290-89d2-95241d6fe7dc")
-		)
-		(pin "5"
-			(uuid "6cdbdc6b-0acd-45ac-b8b9-81c1bd2685e9")
-		)
-		(pin "2"
-			(uuid "46e37d27-1684-44db-8cf5-54f3d69c2f13")
-		)
-		(pin "6"
-			(uuid "5c0536ec-4c92-4230-9a1d-046d3c22de4a")
-		)
-		(instances
-			(project "emustation-alpha-display"
-				(path "/a740a1c9-1554-4b3f-9451-fff74a9eb912"
-					(reference "CN2")
 					(unit 1)
 				)
 			)

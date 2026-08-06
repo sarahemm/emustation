@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 97.79 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4133,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4261,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4389,7 +4389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 97.79 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4517,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 166.37 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4644,7 +4644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Display:5241A-14SEG"
 			(at 166.37 73.66 0)
 			(hide yes)
 			(show_name no)

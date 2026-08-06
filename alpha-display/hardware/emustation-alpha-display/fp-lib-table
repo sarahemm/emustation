@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "sen_Connector_FPC") (type "KiCad") (uri "C:/Users/Sen/Documents/KiCad/10.0/footprints/sen_Connector_FPC.pretty") (options "") (descr ""))
+)
