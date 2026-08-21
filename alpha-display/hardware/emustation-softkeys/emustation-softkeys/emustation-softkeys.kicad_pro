@@ -241,7 +241,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -416,7 +416,7 @@
         "uuid": "58f19b55-a1b6-445e-8232-450d94b8e4a3"
       }
     ],
-    "used_designators": "C11,TP4-6,J1,CN8,#PWR45-46",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

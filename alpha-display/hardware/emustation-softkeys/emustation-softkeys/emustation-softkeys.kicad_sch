@@ -8530,7 +8530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 34.29 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8597,8 +8597,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 184.15 55.88 0)
+		(property "Value" "PIC32CM6408PL10032"
+			(at 203.2 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,7 +9017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 162.56 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9815,7 +9815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9897,7 +9897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 33.02 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10135,7 +10135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10509,7 +10509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sen_Connector_FPC:CF4206FH0R0-05-NH_1x06-1MP_P0.50mm_Horizontal"
 			(at 121.92 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12321,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12655,7 +12655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12734,7 +12734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 72.39 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12893,7 +12893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 69.85 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12969,7 +12969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 115.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13129,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 73.66 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13287,7 +13287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sen_Connector_FPC:CF4206FH0R0-05-NH_1x06-1MP_P0.50mm_Horizontal"
 			(at 93.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 97.79 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +14111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sen_Switch:Adafruit-10mm-Silicone-Square-Button"
 			(at 54.61 68.58 0)
 			(hide yes)
 			(show_name no)
